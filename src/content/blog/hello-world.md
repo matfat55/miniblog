@@ -53,25 +53,29 @@ This can be changed by modifying the src/content/config.ts file.
 After the frontmatter, you can write your blog post content using standard Markdown syntax.
 
 
-I won't teach you markdown here, there are many great resources. If you want to add images, make sure to put them in the public directory. 
+I won't teach you markdown here; there are many great resources. If you want to add images, put them in the public directory. 
 
 ### Step 5: Preview Your Blog
 Once you've created your post, you can preview it locally by:
 
-Running npm run dev in your terminal
-Opening your browser to localhost:3000
-Navigating to your new blog post
+- Running npm run dev in your terminal
 
-Step 6: Deploy Your Changes
+- opening your browser to localhost:3000
+
+- Navigating to your new blog post
+
+(only if you have it locally)
+
+
+### Step 6: Deploy Your Changes
 After you're satisfied with your post:
 
-Commit your changes to git
-Push to your repository
-Your blog will automatically update if you have deployment set up
-Remember to:
+- Commit your changes to git
 
-Use descriptive titles and excerpts
-Add relevant tags to help readers find your content
-Include high-quality images when relevant
-Proofread your content before publishing
+- Push to your repository
+
+- Your blog will automatically update if you have deployment set up
+
+If not, go to the settings of your fork, head to pages, and set up deployment. 
+
 Now you're ready to start blogging with MiniBlog! Happy writing! 🚀
